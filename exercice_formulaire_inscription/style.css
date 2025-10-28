@@ -1,6 +1,15 @@
+:root {
+    --text-color: #2d2d2d;
+    --bg-color: #f2f2f2;
+    --secondary-color: #45a248;
+    --border-color: #ccc;
+}
+
+
 body {
     font-family: Tahoma;
-    background: #f2f2f2;
+    background: var(--bg-color);
+    color: var(--text-color)
 }
 
 form {
@@ -15,12 +24,12 @@ input:not([type="checkbox"]), select {
     width: 100%;
     padding: 12px;
     border-radius: 5px;
-    border: 2px solid #ccc;
+    border: 2px solid var(--border-color);
     box-sizing: border-box;
 }
 
 input[type="submit"] {
-    background-color: #4caf50;
+    background-color: var(--secondary-color);
     color: #fff;
 }
 
