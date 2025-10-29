@@ -1,0 +1,18 @@
+h1 {
+    color: red;
+}
+
+@media (min-width: 768px) {
+    main {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    h1 {
+        width: 100%;
+    }
+    section {
+        flex-basis: 300px;
+        border-left: 2px solid;
+    }
+}
